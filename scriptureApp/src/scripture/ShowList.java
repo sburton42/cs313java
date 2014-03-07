@@ -35,8 +35,6 @@ public class ShowList extends HttpServlet {
 		request.setAttribute("scriptures", scriptures);
 				
 		request.getRequestDispatcher("scriptureList.jsp").forward(request, response);
-
-		response.getWriter().write("xxxxx");
 	}
 
 }
